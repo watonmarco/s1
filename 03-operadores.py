@@ -52,3 +52,60 @@ print(animal_domestico < animal_salvaje)
 print(animal_domestico >= animal_salvaje)
 print(animal_domestico <= animal_salvaje)
 print("\n")
+
+bencina = True
+encendido = True
+edad = 19
+
+# operador AND
+if bencina and encendido:
+    print("El vehículo puede avanzar")
+else:
+    print("El vehículo no puede arrancar")
+
+# operador OR
+if bencina or encendido:
+    print("El vehículo puede avanzar")
+else:
+    print("El vehículo no puede arrancar")
+
+# operador NOT junto a OR
+if not bencina or encendido:
+    print("El vehículo puede avanzar")
+else:
+    print("El vehículo no puede arrancar")
+
+# operador NOT junto a AND
+if not bencina and encendido:
+    print("El vehículo puede avanzar")
+else:
+    print("El vehículo no puede arrancar")
+
+# operador NOT junto a AND y OR
+if not bencina or (encendido and edad >= 18):
+    print("El vehículo puede avanzar")
+else:
+    print("El vehículo no puede arrancar")
+print("\n")
+
+edad = 15
+num = 0
+
+### bucle infinito, no ejecutar por favor, gracias, saludos.
+# while edad < 18:
+#   print("Eres menor de edad, no puedes manejar")
+### en caso de haber ejecutado presionar Ctrl+C en la consola
+
+# que hace este bucle?
+print("### ciclo while ###")
+while num <= 100:
+    print(num)
+    num += 2            # num = num + 2     es lo mismo
+print("primer bucle terminado","\n")
+
+# combinando while y else
+while num <= 200:
+    print(num)
+    num += 2
+else:
+    print("hola")       # no alcance a leer lo que decia aca
