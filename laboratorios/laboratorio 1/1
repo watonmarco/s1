@@ -1,0 +1,19 @@
+inicio
+escribir nota parcial 1
+repetir leer parcial1
+	hastaque parcial < 7.0
+escribir nota parcial 2
+repetir leer parcial2
+	hastaque parcial2 < 7.0
+escribir nota tareas
+repetir leer tareas
+	hastaque tareas < 7.0
+escribir nota laboratorios
+repetir leer laboratiorios
+ 	hastaque laboratorios < 7.0
+final = parcial1 ∗ 0.3 + parcial2 ∗ 0.5 + tareas ∗ 0.1 + laboratorios ∗ 0.1
+si final > 4.0 escribir aprobado
+	si final > 5.0 escribir eximido de la asignatura
+	sino escribir derecho a examen
+sino escribir reprobado
+fin

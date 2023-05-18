@@ -72,11 +72,11 @@ print(list(range(10,21)))
 print("\n")
 
 ## mas cosas
-print(bool(0))
-print(bool(""))
-print(bool(None))
-print(bool("False"))
-print(bool(1))
+print(bool(0))          # False, apagado
+print(bool(""))         # False, vacío
+print(bool(None))       # False, nada
+print(bool("False"))    # True, string
+print(bool(1))          # True, encendido
 print("\n")
 
 #X. diccionarios
