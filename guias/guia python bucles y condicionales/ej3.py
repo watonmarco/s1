@@ -1,7 +1,7 @@
 td = 12000 * 10
 tn = 16000 * 10
-td_d = (td + 2000) * 10
-tn_d = (tn + 3000) * 10
+td_d = td + (2000 * 10)
+tn_d = tn + (3000 * 10)
 
 Trabajador_1 = {
     "Pago del Lunes":tn,
