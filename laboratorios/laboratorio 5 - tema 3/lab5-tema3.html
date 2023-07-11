@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas Aleatorias</title>
+    <script src="lab5-tema3.js"></script>
+</head>
+<body>
+    <!-- título (h2 y no h1 porque se veía muy grande) -->
+    <h2>Generador de Contraseñas Aleatorias</h1>
+    <!-- para determinar la longitud de la contraseña -->
+    <label for="longitud">Longitud de la Contraseña:</label>
+    <input type="number" id="longitud" value="8" min="8" max="20" style="width: 32px;">
+    <br>
+    <!-- checkboxes para más opciones -->
+    <input type="checkbox" id="mayus">
+    <label for="mayus">Incluir Letras Mayúsculas</label>
+    <br>
+    <input type="checkbox" id="minus">
+    <label for="minus">Incluir Letras Minúsculas</label>
+    <br>
+    <input type="checkbox" id="num">
+    <label for="num">Incluir Números</label>
+    <br>
+    <input type="checkbox" id="esp">
+    <label for="esp">Incluir Caracteres Especiales</label>
+    <br><br>
+    <!--  -->
+    <button onclick="generar()" style="height: 40px;">Generar Contraseña</button>
+    <br><br>
+    <span id="contraseña" style="font-weight: bold;"><b>Contraseña Generada:</b></span>
+
+</body>
+</html>
